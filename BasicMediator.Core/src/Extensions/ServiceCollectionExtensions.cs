@@ -11,7 +11,7 @@ namespace BasicMediator.Core.src.Extensions
 {
     public static class ServiceCollectionExtensions
     {
-        public static IServiceCollection AddSimpleMediator(
+        public static IServiceCollection AddBasicMediator(
         this IServiceCollection services,
         params object[] args)
         {
